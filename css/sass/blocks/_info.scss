@@ -1,0 +1,50 @@
+.info {
+    margin-top: 80px;
+}
+
+.info .title-h2 {
+    margin-right: 16px;
+}
+
+.info__link-wrapper {
+    margin: 0 auto;
+}
+
+.info__item {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 24.45px 20px 24px;
+    background: #FFF;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 16px;
+}
+
+.info__item a {
+    display: flex;
+}
+
+.info__item + .info__item {
+    margin-top: 12px;
+}
+
+.info__text-wrapper {
+    width: 435px;
+    padding-right: 20px;
+    @media (max-width: 768px) {
+        width: 270px;
+    }
+    @media (max-width: 576px) {
+
+    }
+
+}    
+
+.info_add-text {
+    margin-top: 4px;
+    font-family: 'Museo Sans Cyrl 300';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 140%;
+    color: #949494;
+    display: inline-block;
+}

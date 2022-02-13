@@ -1,0 +1,51 @@
+.article__title-wrapper {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.article__title {
+    font-family: 'Museo Sans Cyrl 900';
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 120%;
+    color: #1A1A1A;
+}
+
+.article__title-img {
+    margin-left: 12px;
+}
+
+.article__text-wrapper { 
+    max-width: 690px;
+    margin-bottom: 40px;
+}
+
+.article__text {
+    font-family: 'Museo Sans Cyrl 500';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    color: #1A1A1A;
+}
+
+.support-chat__text {
+    font-family: 'Museo Sans Cyrl 700';
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 120%;
+    color: #1A1A1A;
+    margin-bottom: 16px;
+}
+
+.support-chat__wrapper {
+    display: flex;
+}
+
+.support-chat__wrapper .green-link {
+    margin-left: 8px;
+}   
+
+.green-link_small {
+    width: 48px;
+    height: 48px;
+}

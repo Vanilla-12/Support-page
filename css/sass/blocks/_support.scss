@@ -1,0 +1,61 @@
+.support {
+    position: relative;
+    min-height: 306px;
+    background: #93BBEA;
+    border-radius: 40px;
+    padding-top: 40px;
+    padding-bottom: 54px;
+}
+
+.support__content {
+    max-width: 664px;
+    margin: 0 auto;
+}
+
+.letters-image {
+     position: absolute;
+    top: 37px;
+    left: 0;
+    max-width: 262.68px;
+}
+
+.support__text-wrapper {
+    max-width: 535px;
+    margin: 0 auto 40px;
+}
+
+.support__title {
+    position: relative;
+    margin-bottom: 4px;
+    text-align: center;
+    font-family: 'Museo Sans Cyrl 900', sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 120%;
+    color: #FFF;
+    z-index: 11;
+    @media (max-width: 768px) {
+        font-size: 45px;
+    }
+}
+
+.support__text {
+    position: relative;
+    font-family: 'Museo Sans Cyrl 300', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFF;
+    z-index: 11;
+}
+
+.smartphone-image {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    max-width: 277.45px;
+    height: auto;
+    border-radius: 40px;
+    z-index: 10;
+}

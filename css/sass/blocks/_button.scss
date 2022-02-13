@@ -1,0 +1,47 @@
+.buttons-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    @media (max-width: 720px) {
+        width: 340px;
+        margin: 0 auto;
+        justify-content: space-evenly;
+    }
+    @media (max-width: 360px) {
+        width: 280px;
+    }
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    z-index: 11;
+    padding: 7px;
+    border-radius: 12px;
+    border: none;
+    font-family: 'Museo Sans Cyrl 700', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 120%;
+    img {
+        margin-right: 8px;
+    }
+}
+
+.button_white {
+    width: 160px;
+    background: #FFF;
+    color: #1A1A1A;
+    @media (max-width: 720px) {
+        width: 130px;
+        margin-bottom: 10px;
+    }
+}
+
+.button_green {
+    background: #36BA5F;
+    color: #FFF;
+    width: 224px;
+}
